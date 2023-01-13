@@ -1,0 +1,35 @@
+main,
+header {
+  padding: 1rem;
+}
+.field {
+  margin-bottom: 1rem;
+}
+input[type="radio"] {
+  margin-left: 0.5rem;
+}
+
+header.content-light {
+  color: #000000;
+  background-color: #9dbdff;
+}
+main.content-light {
+  color: #000000;
+  background-color: #ffffff;
+}
+header.content-dark {
+  color: #ffffff;
+  background-color: #535353;
+}
+main.content-dark {
+  color: #ffffff;
+  background-color: #747474;
+}
+header.content-red {
+  color: #ffffff;
+  background-color: #ff7373;
+}
+main.content-red {
+  color: #ffffff;
+  background-color: #ff3636;
+}
