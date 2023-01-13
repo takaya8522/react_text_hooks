@@ -36,10 +36,13 @@ const Example = () => {
   const [state, dispatch] = useReducer(reducer, initState);
 
   const calculate = (e) => {
-    dispatch({type: e.target.value});
+    dispatch({ type: e.target.value });
   };
   const numChangeHandler = (e) => {
-    dispatch({type: 'change', payload: {name: e.target.name, value: e.target.value}});
+    dispatch({
+      type: "change",
+      payload: { name: e.target.name, value: parseInt(e.target.value) },
+    });
   };
   return (
     <>
