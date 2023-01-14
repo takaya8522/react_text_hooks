@@ -1,4 +1,3 @@
-import { createContext, useState } from "react";
 import "./Example.css";
 import Main from "./components/Main";
 import Header from "./components/Header";
